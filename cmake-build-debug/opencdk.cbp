@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="opencdk"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ai/Sources/opencdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ai/Sources/opencdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ai/Sources/opencdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencdk">
+				<Option output="/Users/ai/Sources/opencdk/cmake-build-debug/opencdk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ai/Sources/opencdk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ai/Sources/opencdk/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencdk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencdk/fast">
+				<Option output="/Users/ai/Sources/opencdk/cmake-build-debug/opencdk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ai/Sources/opencdk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ai/Sources/opencdk/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencdk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ai/Sources/opencdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ai/Sources/opencdk/java/io/Serializable.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Appendable.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Boolean.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Boolean.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Byte.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Byte.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/CharSequence.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/CharSequence.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Comparable.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Double.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Double.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Exception.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Exception.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Float.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Float.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/IndexOutOfBoundsException.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/IndexOutOfBoundsException.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Integer.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Integer.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Long.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Long.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Math.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Math.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Number.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Number.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Object.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Object.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/RuntimeException.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/RuntimeException.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Short.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Short.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/StrictMath.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/StrictMath.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/String.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/String.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/StringIndexOutOfBoundsException.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/StringIndexOutOfBoundsException.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Throwable.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Throwable.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Void.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/java/lang/Void.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/main.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/opencdk.cpp">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/opencdk.h">
+			<Option target="opencdk"/>
+		</Unit>
+		<Unit filename="/Users/ai/Sources/opencdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

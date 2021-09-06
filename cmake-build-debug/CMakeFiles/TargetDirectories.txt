@@ -1,0 +1,3 @@
+/Users/ai/Sources/opencdk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ai/Sources/opencdk/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ai/Sources/opencdk/cmake-build-debug/CMakeFiles/opencdk.dir
